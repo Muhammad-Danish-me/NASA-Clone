@@ -78,16 +78,7 @@ header .nav-icon{
     border-top: 1px solid gray;
     padding-top: 10px;
 }
-.section-one .container .two{
-    width: 25%;
-    border-top: 1px solid gray;
-    padding-top: 10px;
-}
-.section-one .container .three{
-    width: 25%;
-    border-top: 1px solid gray;
-    padding-top: 10px;
-}
+
 .section-one{
     height: 600px;
     color: white;
