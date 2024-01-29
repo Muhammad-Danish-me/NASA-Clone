@@ -64,16 +64,58 @@ header .search-icon{
 header .nav-icon{
     display: none;
 }
-
-secion one 
+/* secion one  */
 .section-one .container{
     width: 100%;
-    height: 500px;
+    height: 250px;
     display: flex;
-   align-items: flex-end;
+    align-items: flex-end;
+     justify-content: space-around;
+ 
+}
+.section-one .container .one{
+    width: 25%;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.section-one .container .two{
+    width: 25%;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.section-one .container .three{
+    width: 25%;
+    border-top: 1px solid gray;
+    padding-top: 10px;
 }
 .section-one{
+    height: 600px;
     color: white;
     width: 100%;
     background-image: url(images/bg-img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-one .main h1{
+    padding-top: 130px;
+    font-size: 3em;
+    font-family: inter;
+    font-weight: bold;
+}
+.section-one .main {
+margin-left: 20px;
+}
+.section-one .main button{
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+} 
+.section-one .container h4{
+    font-family: inter;
+    font-weight: bold;
+}
+.section-one .container p{
+    font-size: 0.9em;
+    letter-spacing: 4px;
 }

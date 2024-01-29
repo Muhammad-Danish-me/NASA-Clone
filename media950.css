@@ -25,5 +25,23 @@
     width: 35px;
     
    }
-
+   .section-one{
+    width: 100%;
+    height: 700px;
+   }
+   .section-one .container{
+    display: inline-block;
+    margin-top: 60px;
+    width: 100%;
+    
+   }
+   .section-one .container .one{
+    width: 100%;
+   }
+   .section-one .container .two{
+    width: 100%;
+   }
+   .section-one .container .three{
+    width: 100%;
+   }
 }
