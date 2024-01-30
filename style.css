@@ -107,3 +107,52 @@ header .nav-icon {
   font-size: 0.9em;
   letter-spacing: 4px;
 }
+
+/* section two  */
+.section-two{
+  margin-top: 80px;
+  width: 100%;
+}
+.section-two .sec-two-main{
+  display: flex;
+  justify-content: space-between;
+}
+.section-two .sec-two-main h1{
+  font-size: 3em;
+  font-weight: bold;
+  font-family: inter;
+}
+.section-two .sec-two-main p{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.section-two .row-one{
+  margin-top: 30px ;
+}
+.section-two .row-one .img-one img {
+  opacity: 0.9;
+  filter: brightness(70%);
+}
+.section-two .row-one .img-one {
+position: relative;
+color: white;
+
+}
+.section-two .row-one .img-one p {
+  position: absolute;
+  bottom: 70px;
+  padding-left: 20px;
+  font-size: 0.8em;
+}
+.section-two .row-one .img-one h4{
+  position: absolute;
+  bottom: 10px;
+  padding-left: 20px;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+.section-two .row-one .img-one p {
+  font-size: 1em;
+  
+}
