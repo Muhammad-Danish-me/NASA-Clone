@@ -23,62 +23,85 @@
   header .nav-icon img {
     width: 35px;
   }
-  .section-one .sec-one-content h1{
+  .section-one .sec-one-content h1 {
     font-size: 3em;
     padding-right: 10px;
   }
-  .section-one .sec-one-content p{
+  .section-one .sec-one-content p {
     font-size: 1em;
     padding-right: 10px;
   }
-  .section-one .sec-one-content button{
+  .section-one .sec-one-content button {
     width: 150px;
     font-size: 1.5em;
     padding: 0px;
   }
-  .sec-one-bottom-content{
+  .sec-one-bottom-content {
     height: 100%;
     display: block;
     bottom: 300px;
     padding: 15px;
   }
-  .sec-one-bottom-content p{
-    font-size:1.4em;
-
+  .sec-one-bottom-content p {
+    font-size: 1.4em;
   }
   /* section two */
 
-  .section-two .sec-two-top{
+  .section-two .sec-two-top {
     margin-top: -200px;
     display: block;
     font-size: 0.8em;
   }
 
+  .section-two .sec-two-center {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+  }
+  .section-two .sec-two-center .left {
+    display: inline-block;
+    width: 100%;
+  }
+  .section-two .sec-two-center .center {
+    display: inline-block;
+    width: 55%;
+    margin-right: 15px;
+    bottom: 40px;
+  }
+  .section-two .sec-two-center .right {
+    display: inline-block;
+    width: 40%;
+    top: 53px;
+    gap: 30px;
+  }
+  .section-two .sec-two-center .right p {
+    font-size: 1em;
+  }
+  .section-two .bottom {
+    width: 100%;
+    display: inline-block;
+   margin-left: 10px;
+  }
+  .section-two .bottom .left-one {
+    width: 25%;
+    display: inline-block;
+    margin-right: 35%;
+  }
+  .section-two .bottom .center {
+    width: 25%;
+    display: inline-block;
+  }
+  .section-two .bottom .left .left-circle img {
+    width: 100%;
+  }
+  .section-two .bottom .center-one {
+    width: 25%;
+    display: inline-block;
+    margin-right: 35%;
   
-
- .section-two .sec-two-center{
-  display: inline-block;
-  width: 100%;
-  margin: auto;
- }
- .section-two .sec-two-center .left{
-  display: inline-block;
-  width: 100%;
- }
- .section-two .sec-two-center .center{
-  display: inline-block;
-  width: 55%;
-  margin-right: 15px;
- bottom: 40px;
- }
- .section-two .sec-two-center .right{
-  display: inline-block;
-  width: 40%;
-  top: 53px;
-  gap: 30px;
- }
- .section-two .sec-two-center .right p{
-  font-size: 1em;
- }
-  
+  }
+  .section-two .bottom .right {
+    width: 25%;
+    display: inline-block;
+  }
 }

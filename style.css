@@ -205,3 +205,28 @@ header .nav-icon {
   font-weight: bold;
   margin: 0px;
 }
+/* section two bottom circles */
+
+.section-two .bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+}
+.section-two .bottom .left {
+  width: 25%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.section-two .bottom .left .left-circle img {
+  width: 100%;
+  border-radius: 50%;
+}
+.section-two .bottom .left .left-text span {
+  color: grey;
+  letter-spacing: 3px;
+}
+.section-two .bottom .left .left-text p {
+  font-size: 1em;
+  font-weight: bold;
+}
