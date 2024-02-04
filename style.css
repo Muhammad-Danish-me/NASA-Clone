@@ -127,3 +127,17 @@ header .nav-icon {
   border-top: 1px solid gray;
   padding: 10px;
 }
+/* section-two  */
+.section-two .sec-two-top{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.section-two .sec-two-top .left{
+  font-size: 2.3em;
+  font-weight: bold;
+}
+.section-two .sec-two-top .right{
+  font-size: 2em;
+  font-weight: bold;
+}

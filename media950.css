@@ -46,4 +46,10 @@
     font-size:1.4em;
 
   }
+  /* section two */
+
+  .section-two .sec-two-top{
+    margin-top: -200px;
+     
+  }
 }
