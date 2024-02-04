@@ -80,7 +80,7 @@
   .section-two .bottom {
     width: 100%;
     display: inline-block;
-   margin-left: 10px;
+    margin-left: 10px;
   }
   .section-two .bottom .left-one {
     width: 25%;
@@ -98,7 +98,6 @@
     width: 25%;
     display: inline-block;
     margin-right: 35%;
-  
   }
   .section-two .bottom .right {
     width: 25%;
