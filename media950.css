@@ -50,6 +50,7 @@
 
   .section-two .sec-two-top{
     margin-top: -200px;
-     
+    display: block;
+    font-size: 0.8em;
   }
 }
